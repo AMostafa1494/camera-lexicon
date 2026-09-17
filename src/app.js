@@ -1,11 +1,11 @@
 /* ---------- i18n ---------- */
 const I18N={
-en:{nav_lib:'Library',nav_build:'Prompt builder',nav_kadr:'Kadr: framing rules',pill:'Free reference for AI filmmakers',
+en:{nav_lib:'Library',nav_build:'Prompt builder',nav_kadr:'Framing rules',pill:'Free reference for AI filmmakers',
  h1:'Camera language <em>prompts</em> for AI filmmakers.',
  lead:'A visual companion for every camera decision: shot sizes, angles, movements, lenses, camera bodies and composition. Compare how each choice changes a scene, then copy a clean prompt you can adapt in Kling, Seedance, Veo, Higgsfield and similar tools.',
  cta1:'Browse the library',cta2:'Build a custom prompt',
  note:'Every card keeps the camera instruction separate from the scene, so the prompt stays reusable when you swap the first frame.',
- mf_lbl:'Master first frame',mf_h:'Every preview starts from this one frame.',mf_p:'One photoreal still, one subject, one location. Each card below is the same man and the same plaza re-rendered through that card\'s camera choice, so the only thing that changes is the camera.',
+ mf_lbl:'Master first frame',embed_lbl:'Framing rules playground',mf_h:'Every preview starts from this one frame.',mf_p:'One photoreal still, one subject, one location. Each card below is the same man and the same plaza re-rendered through that card\'s camera choice, so the only thing that changes is the camera.',
  lib_lbl:'The library',lib_h:'Find the camera choice that fits your shot.',lib_p:'Search by name, film, director or feeling, or filter by category. Open a card for the full breakdown, the film reference and the AI generation notes.',
  st_stills:'STILLS',st_cats:'CATEGORIES',st_prompt:'PROMPT EACH',search:'Search: dolly, Kubrick, anamorphic, tension…',favs:'Favourites',all:'All',
  copy:'Copy prompt',details:'Details',still:'Still prompt',still_lbl:'Prompt used to create this still',still_copy:'Copy still prompt',copied:'Prompt copied',what:'What it is',when:'When to use it',prompt:'Prompt',notes:'AI generation notes',film:'Reference film',watch:'Watch the scene',fav_add:'☆ Add to favourites',fav_on:'★ In favourites',pending:'STILL PENDING',
@@ -15,12 +15,12 @@ en:{nav_lib:'Library',nav_build:'Prompt builder',nav_kadr:'Kadr: framing rules',
  b_ctx:'First-frame context',b_ctx_ph:'Describe what is in the starting image: who, where, light, time of day.',b_subject:'Subject',b_subject_ph:'a man in a camel coat',b_location:'Location',b_location_ph:'a limestone plaza with a reflecting pool',b_action:'Scene action',b_action_ph:'walks slowly toward the entrance',b_mood:'Mood or style',b_mood_ph:'quiet, golden hour, cinematic',
  b_out:'Generated prompt',b_copy:'Copy generated prompt',b_reset:'Reset',
  foot:'Film references are named and described for study; the "Watch the scene" button opens a YouTube search. Prompts are written for text-to-video and work as image-to-video by removing the scene description. Preview stills are AI-generated from one master frame and are not frames from the films.'},
-ar:{nav_lib:'المكتبة',nav_build:'مبني البرومبت',nav_kadr:'Kadr: قواعد الكادر',pill:'مرجع مجاني لصنّاع أفلام الـ AI',
+ar:{nav_lib:'المكتبة',nav_build:'مبني البرومبت',nav_kadr:'قواعد الكادر',pill:'مرجع مجاني لصنّاع أفلام الـ AI',
  h1:'برومبتات <em>لغة الكاميرا</em> لصنّاع أفلام الـ AI.',
  lead:'رفيق بصري لكل قرار كاميرا: أحجام اللقطات، الزوايا، الحركات، العدسات، الكاميرات والتكوين. قارن إزاي كل اختيار بيغير المشهد، وبعدين انسخ برومبت نظيف تعدله في Kling وSeedance وVeo وHiggsfield وغيرهم.',
  cta1:'تصفح المكتبة',cta2:'ابني برومبت خاص',
  note:'كل كارت بيفصل تعليمات الكاميرا عن وصف المشهد، فالبرومبت بيفضل قابل لإعادة الاستخدام لما تغير الفريم الأول.',
- mf_lbl:'فريم الماستر',mf_h:'كل المعاينات بتبدأ من الفريم ده.',mf_p:'صورة واحدة واقعية، شخص واحد، مكان واحد. كل كارت تحت هو نفس الراجل ونفس الساحة متصورين باختيار الكاميرا بتاع الكارت، فالحاجة الوحيدة اللي بتتغير هي الكاميرا.',
+ mf_lbl:'فريم الماستر',embed_lbl:'ملعب قواعد الكادر',mf_h:'كل المعاينات بتبدأ من الفريم ده.',mf_p:'صورة واحدة واقعية، شخص واحد، مكان واحد. كل كارت تحت هو نفس الراجل ونفس الساحة متصورين باختيار الكاميرا بتاع الكارت، فالحاجة الوحيدة اللي بتتغير هي الكاميرا.',
  lib_lbl:'المكتبة',lib_h:'لاقي اختيار الكاميرا اللي يناسب لقطتك.',lib_p:'ابحث بالاسم أو الفيلم أو المخرج أو الإحساس، أو فلتر بالقسم. افتح أي كارت للشرح الكامل ومثال الفيلم وملاحظات التوليد.',
  st_stills:'صورة',st_cats:'أقسام',st_prompt:'برومبت لكل كارت',search:'ابحث: dolly، كوبريك، أنامورفيك، توتر…',favs:'المفضلة',all:'الكل',
  copy:'انسخ البرومبت',details:'التفاصيل',still:'برومبت الصورة',still_lbl:'البرومبت اللي اتعملت بيه الصورة دي',still_copy:'انسخ برومبت الصورة',copied:'اتنسخ',what:'إيه هي',when:'إمتى تستخدمها',prompt:'البرومبت',notes:'ملاحظات التوليد بالـ AI',film:'الفيلم المرجعي',watch:'شوف المشهد',fav_add:'☆ ضيف للمفضلة',fav_on:'★ في المفضلة',pending:'الصورة قيد التوليد',
@@ -36,6 +36,11 @@ const CATN={en:{size:'Shot size',angle:'Angle',move:'Movement',lens:'Lens',forma
 const CATD={en:{size:'How much of the subject fills the frame. Size sets the psychological distance between viewer and subject.',angle:'Where the camera looks from. Angle distributes power: who dominates and who is weak.',move:'How the camera travels through time. The most important section for video generation: movement is what separates an AI clip from a film.',lens:'Focal length and aperture change perspective and depth of field more than anything else.',format:'The actual camera and stock: ARRI, RED, IMAX, 35 and 16mm film, VHS, phone. Each has a "look" you can ask for.',frame:'How elements are arranged inside the frame. Not a move or a lens, but what makes a shot feel intended.'}};
 const CATSN={size:'S',angle:'A',move:'M',lens:'L',format:'F',frame:'C'};
 CATS.forEach(c=>{CATD.ar=CATD.ar||{};CATD.ar[c.id]=c.d});
+
+/* ---------- kadr iframe auto-height ---------- */
+function kadrFit(f){try{const d=f.contentDocument;if(!d)return;const h=Math.max(d.documentElement.scrollHeight,d.body.scrollHeight);f.style.height=(h+8)+'px';}catch(e){}}
+window.addEventListener('resize',()=>document.querySelectorAll('.kadr-embed iframe').forEach(kadrFit));
+setInterval(()=>document.querySelectorAll('.kadr-embed iframe').forEach(kadrFit),1500);
 
 /* ---------- state ---------- */
 const $=s=>document.querySelector(s);
@@ -130,7 +135,8 @@ function render(){
  const m=$('#main');let html='',n=0;
  CATS.forEach(k=>{
   const items=D.filter(d=>d.cat===k.id&&matches(d));if(!items.length)return;n+=items.length;
-  html+=`<section class="cat" id="cat-${k.id}"><div class="cat-h"><h3>${CATN[L][k.id]}</h3><p>${CATD[L][k.id]}</p></div><div class="grid">${items.map(card).join('')}</div></section>`;
+  const emb=k.id==='frame'?`<div class="kadr-embed"><iframe src="kadr/?embed=1" title="Kadr framing rules" loading="lazy" onload="kadrFit(this)"></iframe></div>`:'';
+  html+=`<section class="cat" id="cat-${k.id}"><div class="cat-h"><h3>${CATN[L][k.id]}</h3><p>${CATD[L][k.id]}</p></div>${emb}<div class="grid">${items.map(card).join('')}</div></section>`;
  });
  m.innerHTML=n?html:`<div class="empty">${L==='ar'?'مفيش نتائج.':'No results.'}</div>`;
  m.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>copy(promptOf(D.find(d=>d.id===b.dataset.copy))));

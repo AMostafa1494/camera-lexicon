@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
-<title>am14194 Camera Lexicon</title>
+<title>Kadr</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Kufi+Arabic:wght@500;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap">
 </head>
 <body>
@@ -32,7 +32,7 @@ button{font-family:inherit;cursor:pointer}
 nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
 nav .brand{font-family:var(--serif);font-size:20px;font-weight:500;letter-spacing:-.01em}
 nav .brand span{color:var(--amber)}
-nav .brand .pre{color:var(--mute);font-family:var(--mono);font-size:13px;letter-spacing:.08em;margin-inline-end:8px}
+nav .brand .pre{color:var(--mute);font-family:var(--mono);font-size:11px;letter-spacing:.12em;margin-inline-start:10px}
 nav .links{display:flex;gap:8px;align-items:center}
 .btn{display:inline-flex;align-items:center;gap:8px;border-radius:var(--r);padding:11px 18px;font-weight:600;font-size:14px;border:1px solid var(--line2);background:var(--surface);color:var(--ink);text-decoration:none;transition:border-color .15s,background .15s}
 .btn:hover{border-color:var(--mute)}
@@ -81,6 +81,8 @@ body[dir=rtl] h1{font-size:clamp(36px,5vw,64px);line-height:1.25;letter-spacing:
 
 /* cards */
 section.cat{padding:30px 0 6px}
+.kadr-embed{margin:0 0 22px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#15140F}
+.kadr-embed iframe{display:block;width:100%;border:0;min-height:900px}
 .cat-h{display:flex;align-items:baseline;gap:14px;margin-bottom:16px}
 .cat-h h3{font-family:var(--serif);font-weight:500;font-size:28px;margin:0;letter-spacing:-.01em}
 .cat-h p{margin:0;color:var(--mute);font-size:14px;max-width:60ch}
@@ -157,11 +159,11 @@ footer{color:var(--mute);font-size:12.5px;padding:28px 0 48px;border-top:1px sol
 
 <div class="wrap">
 <nav>
-  <div class="brand"><span class="pre">am14194</span> Camera <span>Lexicon</span></div>
+  <div class="brand">Kadr<span class="pre">am14194</span></div>
   <div class="links">
     <a class="btn sm" href="#library" data-i="nav_lib"></a>
     <a class="btn sm" href="#builder" data-i="nav_build"></a>
-    <a class="btn sm" href="kadr/" data-i="nav_kadr"></a>
+    <a class="btn sm" href="#cat-frame" data-i="nav_kadr"></a>
     <div class="lang"><button id="lang-en" class="on">EN</button><button id="lang-ar">عربي</button></div>
   </div>
 </nav>
