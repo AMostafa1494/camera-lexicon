@@ -116,10 +116,11 @@ $('#lang-en').onclick=()=>{L='en';try{localStorage.setItem('cl2-lang',L)}catch(e
 $('#lang-ar').onclick=()=>{L='ar';try{localStorage.setItem('cl2-lang',L)}catch(e){};applyLang()};
 
 /* ---------- chips ---------- */
+function scrollToLibrary(){const bar=$('.bar'),m=$('#main');if(!m)return;const y=m.getBoundingClientRect().top+window.scrollY-(bar?bar.offsetHeight:0)-6;window.scrollTo({top:Math.max(0,y),behavior:'smooth'});}
 function renderChips(){
  const c=$('#chips');
  c.innerHTML=`<button class="chip ${filter==='all'?'on':''}" data-f="all">${t('all')} <b>${D.length}</b></button>`+CATS.map(k=>`<button class="chip ${filter===k.id?'on':''}" data-f="${k.id}">${CATN[L][k.id]} <b>${D.filter(d=>d.cat===k.id).length}</b></button>`).join('');
- c.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{filter=b.dataset.f;renderChips();render()});
+ c.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{filter=b.dataset.f;renderChips();render();scrollToLibrary()});
 }
 
 /* ---------- cards ---------- */
@@ -182,7 +183,7 @@ function open(id){
 function close(){$('#dr').classList.remove('open');$('#ov').hidden=true}
 $('#ov').onclick=close;document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
 $('#q').oninput=e=>{q=e.target.value.trim().toLowerCase();render()};
-$('#favtog').onclick=()=>{favOnly=!favOnly;$('#favtog').classList.toggle('on',favOnly);render()};
+$('#favtog').onclick=()=>{favOnly=!favOnly;$('#favtog').classList.toggle('on',favOnly);render();scrollToLibrary()};
 
 /* ---------- builder ---------- */
 const BF={};
