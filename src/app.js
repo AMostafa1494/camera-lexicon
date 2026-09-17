@@ -1,6 +1,6 @@
 /* ---------- i18n ---------- */
 const I18N={
-en:{nav_lib:'Library',nav_build:'Prompt builder',pill:'Free reference for AI filmmakers',
+en:{nav_lib:'Library',nav_build:'Prompt builder',nav_kadr:'Kadr: framing rules',pill:'Free reference for AI filmmakers',
  h1:'Camera language <em>prompts</em> for AI filmmakers.',
  lead:'A visual companion for every camera decision: shot sizes, angles, movements, lenses, camera bodies and composition. Compare how each choice changes a scene, then copy a clean prompt you can adapt in Kling, Seedance, Veo, Higgsfield and similar tools.',
  cta1:'Browse the library',cta2:'Build a custom prompt',
@@ -15,7 +15,7 @@ en:{nav_lib:'Library',nav_build:'Prompt builder',pill:'Free reference for AI fil
  b_ctx:'First-frame context',b_ctx_ph:'Describe what is in the starting image: who, where, light, time of day.',b_subject:'Subject',b_subject_ph:'a man in a camel coat',b_location:'Location',b_location_ph:'a limestone plaza with a reflecting pool',b_action:'Scene action',b_action_ph:'walks slowly toward the entrance',b_mood:'Mood or style',b_mood_ph:'quiet, golden hour, cinematic',
  b_out:'Generated prompt',b_copy:'Copy generated prompt',b_reset:'Reset',
  foot:'Film references are named and described for study; the "Watch the scene" button opens a YouTube search. Prompts are written for text-to-video and work as image-to-video by removing the scene description. Preview stills are AI-generated from one master frame and are not frames from the films.'},
-ar:{nav_lib:'المكتبة',nav_build:'مبني البرومبت',pill:'مرجع مجاني لصنّاع أفلام الـ AI',
+ar:{nav_lib:'المكتبة',nav_build:'مبني البرومبت',nav_kadr:'Kadr: قواعد الكادر',pill:'مرجع مجاني لصنّاع أفلام الـ AI',
  h1:'برومبتات <em>لغة الكاميرا</em> لصنّاع أفلام الـ AI.',
  lead:'رفيق بصري لكل قرار كاميرا: أحجام اللقطات، الزوايا، الحركات، العدسات، الكاميرات والتكوين. قارن إزاي كل اختيار بيغير المشهد، وبعدين انسخ برومبت نظيف تعدله في Kling وSeedance وVeo وHiggsfield وغيرهم.',
  cta1:'تصفح المكتبة',cta2:'ابني برومبت خاص',
