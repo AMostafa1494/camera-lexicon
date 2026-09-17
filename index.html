@@ -183,7 +183,11 @@ body[dir=rtl] .dr{right:auto;left:0;transform:translateX(-100%);border-left:0;bo
 .f textarea{min-height:80px;resize:vertical;font-family:var(--mono);font-size:12.5px}
 .f2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 #bout{min-height:120px;max-height:none}
-footer{color:var(--mute);font-size:12.5px;padding:28px 0 48px;border-top:1px solid var(--line);margin-top:20px;max-width:80ch}
+footer{color:var(--mute);font-size:12.5px;padding:28px 0 48px;border-top:1px solid var(--line);margin-top:20px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+footer p{margin:0;max-width:80ch}
+.powered{display:inline-flex;align-items:center;gap:10px;color:var(--ink2);text-decoration:none;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}
+.powered img{height:26px;width:auto;display:block}
+.powered:hover{color:var(--amber)}
 .toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:var(--sage);color:var(--sage-ink);padding:9px 18px;border-radius:999px;font-weight:600;font-size:13px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:60}
 .toast.show{opacity:1}
 @media (max-width:900px){.hero,.bgrid,.lib-h{grid-template-columns:1fr}.stats{justify-content:flex-start}}
@@ -262,7 +266,7 @@ footer{color:var(--mute);font-size:12.5px;padding:28px 0 48px;border-top:1px sol
   </div>
 </section>
 
-<footer data-i="foot"></footer>
+<footer><p data-i="foot"></p><a class="powered" href="https://cubeconsultants.org" target="_blank" rel="noopener"><img src="img/cube-logo.png" alt="CUBE Consultants"><span><span data-i="powered"></span> CUBE Consultants</span></a></footer>
 </div>
 
 <div id="kadr-play" hidden>
