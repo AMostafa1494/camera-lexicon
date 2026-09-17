@@ -5,7 +5,7 @@ en:{nav_lib:'Library',nav_build:'Prompt builder',nav_kadr:'Framing rules',pill:'
  lead:'A visual companion for every camera decision: shot sizes, angles, movements, lenses, camera bodies and composition. Compare how each choice changes a scene, then copy a clean prompt you can adapt in Kling, Seedance, Veo, Higgsfield and similar tools.',
  cta1:'Browse the library',cta2:'Build a custom prompt',
  note:'Every card keeps the camera instruction separate from the scene, so the prompt stays reusable when you swap the first frame.',
- mf_lbl:'Master first frame',embed_lbl:'Framing rules playground',mf_h:'Every preview starts from this one frame.',mf_p:'One photoreal still, one subject, one location. Each card below is the same man and the same plaza re-rendered through that card\'s camera choice, so the only thing that changes is the camera.',
+ mf_lbl:'Master first frame',mark_sub:'Egyptian for frame',play_h:'Where to put things in the frame',play_p:'Drag the person. Drag the horizon to tilt the camera. The panel tells you when the frame works. Then read the rules below, one photo each.',play_hint:'Drag the person · drag the horizon to tilt',play_grid:'Grid',g_thirds:'Rule of thirds',g_golden:'Golden ratio',g_spiral:'Golden spiral',g_triangle:'Golden triangle',g_center:'Centre',g_none:'Off',b_spin:'Rotate ↻',b_flip:'Flip look ⇄',b_snap:'Snap to power point',b_rand:'Scramble',rules_p:'None of these is a law. They are habits that make a frame feel right. Learn them, then break them on purpose.',mf_h:'Every preview starts from this one frame.',mf_p:'One photoreal still, one subject, one location. Each card below is the same man and the same plaza re-rendered through that card\'s camera choice, so the only thing that changes is the camera.',
  lib_lbl:'The library',lib_h:'Find the camera choice that fits your shot.',lib_p:'Search by name, film, director or feeling, or filter by category. Open a card for the full breakdown, the film reference and the AI generation notes.',
  st_stills:'STILLS',st_cats:'CATEGORIES',st_prompt:'PROMPT EACH',search:'Search: dolly, Kubrick, anamorphic, tension…',favs:'Favourites',all:'All',
  copy:'Copy prompt',details:'Details',still:'Still prompt',still_lbl:'Prompt used to create this still',still_copy:'Copy still prompt',copied:'Prompt copied',what:'What it is',when:'When to use it',prompt:'Prompt',notes:'AI generation notes',film:'Reference film',watch:'Watch the scene',fav_add:'☆ Add to favourites',fav_on:'★ In favourites',pending:'STILL PENDING',
@@ -20,7 +20,7 @@ ar:{nav_lib:'المكتبة',nav_build:'مبني البرومبت',nav_kadr:'ق�
  lead:'رفيق بصري لكل قرار كاميرا: أحجام اللقطات، الزوايا، الحركات، العدسات، الكاميرات والتكوين. قارن إزاي كل اختيار بيغير المشهد، وبعدين انسخ برومبت نظيف تعدله في Kling وSeedance وVeo وHiggsfield وغيرهم.',
  cta1:'تصفح المكتبة',cta2:'ابني برومبت خاص',
  note:'كل كارت بيفصل تعليمات الكاميرا عن وصف المشهد، فالبرومبت بيفضل قابل لإعادة الاستخدام لما تغير الفريم الأول.',
- mf_lbl:'فريم الماستر',embed_lbl:'ملعب قواعد الكادر',mf_h:'كل المعاينات بتبدأ من الفريم ده.',mf_p:'صورة واحدة واقعية، شخص واحد، مكان واحد. كل كارت تحت هو نفس الراجل ونفس الساحة متصورين باختيار الكاميرا بتاع الكارت، فالحاجة الوحيدة اللي بتتغير هي الكاميرا.',
+ mf_lbl:'فريم الماستر',mark_sub:'كادر: يعني الإطار بالمصري',play_h:'تحط الحاجات فين جوه الكادر',play_p:'اسحب الشخص. اسحب الأفق عشان تميل الكاميرا. اللوحة على اليمين بتقول لك إمتى الكادر بيشتغل. وبعدين اقرا القواعد تحت، كل قاعدة بصورة.',play_hint:'اسحب الشخص · اسحب الأفق عشان تميل',play_grid:'الشبكة',g_thirds:'قاعدة الأثلاث',g_golden:'النسبة الذهبية',g_spiral:'الحلزون الذهبي',g_triangle:'المثلث الذهبي',g_center:'المنتصف',g_none:'إطفاء',b_spin:'لفّ ↻',b_flip:'اعكس النظرة ⇄',b_snap:'ثبّت على نقطة القوة',b_rand:'بعثر',rules_p:'ولا واحدة من دول قانون. دي عادات بتخلي الكادر يحس إنه صح. اتعلمها، وبعدين اكسرها عن قصد.',mf_h:'كل المعاينات بتبدأ من الفريم ده.',mf_p:'صورة واحدة واقعية، شخص واحد، مكان واحد. كل كارت تحت هو نفس الراجل ونفس الساحة متصورين باختيار الكاميرا بتاع الكارت، فالحاجة الوحيدة اللي بتتغير هي الكاميرا.',
  lib_lbl:'المكتبة',lib_h:'لاقي اختيار الكاميرا اللي يناسب لقطتك.',lib_p:'ابحث بالاسم أو الفيلم أو المخرج أو الإحساس، أو فلتر بالقسم. افتح أي كارت للشرح الكامل ومثال الفيلم وملاحظات التوليد.',
  st_stills:'صورة',st_cats:'أقسام',st_prompt:'برومبت لكل كارت',search:'ابحث: dolly، كوبريك، أنامورفيك، توتر…',favs:'المفضلة',all:'الكل',
  copy:'انسخ البرومبت',details:'التفاصيل',still:'برومبت الصورة',still_lbl:'البرومبت اللي اتعملت بيه الصورة دي',still_copy:'انسخ برومبت الصورة',copied:'اتنسخ',what:'إيه هي',when:'إمتى تستخدمها',prompt:'البرومبت',notes:'ملاحظات التوليد بالـ AI',film:'الفيلم المرجعي',watch:'شوف المشهد',fav_add:'☆ ضيف للمفضلة',fav_on:'★ في المفضلة',pending:'الصورة قيد التوليد',
@@ -36,11 +36,6 @@ const CATN={en:{size:'Shot size',angle:'Angle',move:'Movement',lens:'Lens',forma
 const CATD={en:{size:'How much of the subject fills the frame. Size sets the psychological distance between viewer and subject.',angle:'Where the camera looks from. Angle distributes power: who dominates and who is weak.',move:'How the camera travels through time. The most important section for video generation: movement is what separates an AI clip from a film.',lens:'Focal length and aperture change perspective and depth of field more than anything else.',format:'The actual camera and stock: ARRI, RED, IMAX, 35 and 16mm film, VHS, phone. Each has a "look" you can ask for.',frame:'How elements are arranged inside the frame. Not a move or a lens, but what makes a shot feel intended.'}};
 const CATSN={size:'S',angle:'A',move:'M',lens:'L',format:'F',frame:'C'};
 CATS.forEach(c=>{CATD.ar=CATD.ar||{};CATD.ar[c.id]=c.d});
-
-/* ---------- kadr iframe auto-height ---------- */
-function kadrFit(f){try{const d=f.contentDocument;if(!d)return;const h=Math.max(d.documentElement.scrollHeight,d.body.scrollHeight);f.style.height=(h+8)+'px';}catch(e){}}
-window.addEventListener('resize',()=>document.querySelectorAll('.kadr-embed iframe').forEach(kadrFit));
-setInterval(()=>document.querySelectorAll('.kadr-embed iframe').forEach(kadrFit),1500);
 
 /* ---------- state ---------- */
 const $=s=>document.querySelector(s);
@@ -66,6 +61,7 @@ const A='#e0b66f';
 const arrow=(x1,y1,x2,y2,dur=3)=>`<defs><marker id="ah" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="${A}"/></marker></defs><line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${A}" stroke-width="2.5" marker-end="url(#ah)" stroke-linecap="round"><animate attributeName="opacity" values="0;1;1;0" dur="${dur}s" repeatCount="indefinite"/></line>`;
 const box=(x,y,w,h,vals,dur=4)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="none" stroke="${A}" stroke-width="2" rx="2">${vals}</rect>`;
 const anim=(n,v,dur=4)=>`<animate attributeName="${n}" values="${v}" dur="${dur}s" repeatCount="indefinite"/>`;
+const tagS=(x,y,t)=>`<rect x="${x-t.length*3.1-6}" y="${y-8}" width="${t.length*6.2+12}" height="16" fill="rgba(0,0,0,.6)" rx="2"/><text x="${x}" y="${y+3.5}" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="${A}">${t}</text>`;
 const OVL={
  static:()=>box(40,22,240,136,''),
  pan:()=>arrow(70,90,250,90),
@@ -88,9 +84,22 @@ const OVL={
  roll:()=>`<g>${box(40,22,240,136,'')}<animateTransform attributeName="transform" type="rotate" values="0 160 90;180 160 90;180 160 90;360 160 90" keyTimes="0;.45;.55;1" dur="6s" repeatCount="indefinite"/></g>`,
  crash:()=>box(20,11,280,158,anim('x','20;20;120;120;20','2.4')+anim('y','11;11;67;67;11','2.4')+anim('width','280;280;80;80;280','2.4')+anim('height','158;158;45;45;158','2.4')),
  slowmo:()=>`<text x="24" y="168" font-family="JetBrains Mono,monospace" font-size="10" fill="${A}" letter-spacing="2">120 FPS</text><rect x="24" y="150" width="60" height="3" fill="${A}"><animate attributeName="width" values="0;60" dur="4s" repeatCount="indefinite"/></rect>`,
- timelapse:()=>`<circle cx="0" cy="0" r="6" fill="${A}"><animateMotion dur="5s" repeatCount="indefinite" path="M30 120 Q160 -20 290 120"/></circle>`
+ timelapse:()=>`<circle cx="0" cy="0" r="6" fill="${A}"><animateMotion dur="5s" repeatCount="indefinite" path="M30 120 Q160 -20 290 120"/></circle>`,
+ /* composition guides (Kadr) */
+ thirds:()=>`<g stroke="${A}" stroke-width="1.2" opacity=".85"><line x1="106.7" y1="0" x2="106.7" y2="180"/><line x1="213.3" y1="0" x2="213.3" y2="180"/><line x1="0" y1="60" x2="320" y2="60"/><line x1="0" y1="120" x2="320" y2="120"/></g><circle cx="213.3" cy="60" r="12" fill="none" stroke="${A}" stroke-width="2.5"/>`,
+ gratio:()=>`<g stroke="${A}" stroke-width="1.2" opacity=".85"><line x1="122" y1="0" x2="122" y2="180"/><line x1="198" y1="0" x2="198" y2="180"/><line x1="0" y1="69" x2="320" y2="69"/><line x1="0" y1="111" x2="320" y2="111"/></g><circle cx="198" cy="69" r="12" fill="none" stroke="${A}" stroke-width="2.5"/>`,
+ gspiral:()=>`<path transform="translate(0 180) scale(1 -1)" d="M0 180 A180 180 0 0 1 180 0 A111 111 0 0 1 291 111 A69 69 0 0 1 222 180 A42 42 0 0 1 180 138 A26 26 0 0 1 206 112 A16 16 0 0 1 222 128 A10 10 0 0 1 212 138" fill="none" stroke="${A}" stroke-width="1.6" opacity=".9"/><circle cx="216" cy="52" r="12" fill="none" stroke="${A}" stroke-width="2.5"/>`,
+ gtriangle:()=>`<g stroke="${A}" stroke-width="1.4" opacity=".9"><line x1="320" y1="0" x2="0" y2="180"/><line x1="0" y1="0" x2="76.9" y2="136.7" stroke-dasharray="5 4"/><line x1="320" y1="180" x2="243.1" y2="43.3" stroke-dasharray="5 4"/></g><circle cx="243" cy="43" r="12" fill="none" stroke="${A}" stroke-width="2.5"/>`,
+ symmetry:()=>`<g stroke="${A}" stroke-width="1.2" opacity=".85"><line x1="160" y1="0" x2="160" y2="180"/><line x1="0" y1="90" x2="320" y2="90"/></g>`,
+ horizon:()=>`<line x1="0" y1="15" x2="320" y2="15" stroke="${A}" stroke-width="2" stroke-dasharray="7 5"/>${tagS(160,30,'horizon on the top third')}`,
+ leadroom:()=>`<line x1="109" y1="38" x2="300" y2="38" stroke="#f3eadb" stroke-width="2" stroke-dasharray="7 5" opacity=".9"/><path d="M304 38 L296 33 L296 43 z" fill="#f3eadb"/>${tagS(205,54,'room in front of the look')}`,
+ headroom:()=>`<line x1="96" y1="8" x2="224" y2="8" stroke="${A}" stroke-width="2" stroke-dasharray="7 5"/>${tagS(160,22,'small gap above the hair')}`,
+ lines:()=>`<g stroke="${A}" stroke-width="1.4" stroke-dasharray="6 5" opacity=".9"><line x1="6" y1="176" x2="160" y2="90"/><line x1="314" y1="176" x2="160" y2="90"/><line x1="38" y1="9" x2="160" y2="90"/><line x1="256" y1="40" x2="160" y2="90"/></g><circle cx="160" cy="90" r="12" fill="none" stroke="${A}" stroke-width="2.5"/>`,
+ negative:()=>`<circle cx="290" cy="150" r="12" fill="none" stroke="${A}" stroke-width="2.5"/>`,
+ fwf:()=>`<path d="M122 162 L122 50 A38 38 0 0 1 198 50 L198 162" fill="none" stroke="${A}" stroke-width="1.8" stroke-dasharray="6 5"/>`,
+ layers:()=>`${tagS(64,155,'1 · foreground')}${tagS(246,90,'2 · subject')}${tagS(144,50,'3 · background')}`,
 };
-const overlay=d=>{const f=OVL[d.id];if(!f||d.cat!=='move')return '';const inner=f();const needsDefs=inner.includes('url(#ah)')&&!inner.includes('<defs>');return `<svg class="ov" viewBox="0 0 320 180" preserveAspectRatio="none">${needsDefs?`<defs><marker id="ah" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="${A}"/></marker></defs>`:''}${inner}</svg>`};
+const overlay=d=>{const f=OVL[d.id];if(!f)return '';const inner=f();const needsDefs=inner.includes('url(#ah)')&&!inner.includes('<defs>');return `<svg class="ov" viewBox="0 0 320 180" preserveAspectRatio="none">${needsDefs?`<defs><marker id="ah" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="${A}"/></marker></defs>`:''}${inner}</svg>`};
 
 /* ---------- static text ---------- */
 function applyLang(){
@@ -100,6 +109,8 @@ function applyLang(){
  $('#h1').innerHTML=t('h1');
  $('#lang-en').classList.toggle('on',L==='en');$('#lang-ar').classList.toggle('on',L==='ar');
  renderChips();render();renderBuilder();
+ const s1=$('#st1');if(s1)s1.textContent=D.length;
+ if(window.kadrLang)window.kadrLang(L);
 }
 $('#lang-en').onclick=()=>{L='en';try{localStorage.setItem('cl2-lang',L)}catch(e){};applyLang()};
 $('#lang-ar').onclick=()=>{L='ar';try{localStorage.setItem('cl2-lang',L)}catch(e){};applyLang()};
@@ -133,12 +144,14 @@ function card(d){
 }
 function render(){
  const m=$('#main');let html='',n=0;
+ const kp0=$('#kadr-play');if(kp0){document.body.appendChild(kp0);kp0.hidden=true;}
  CATS.forEach(k=>{
   const items=D.filter(d=>d.cat===k.id&&matches(d));if(!items.length)return;n+=items.length;
-  const emb=k.id==='frame'?`<div class="kadr-embed"><iframe src="kadr/?embed=1" title="Kadr framing rules" loading="lazy" onload="kadrFit(this)"></iframe></div>`:'';
+  const emb=k.id==='frame'?`<div class="play-wrap play-slot"></div><p class="rules-p">${t('rules_p')}</p>`:'';
   html+=`<section class="cat" id="cat-${k.id}"><div class="cat-h"><h3>${CATN[L][k.id]}</h3><p>${CATD[L][k.id]}</p></div>${emb}<div class="grid">${items.map(card).join('')}</div></section>`;
  });
  m.innerHTML=n?html:`<div class="empty">${L==='ar'?'مفيش نتائج.':'No results.'}</div>`;
+ const slot=m.querySelector('.play-slot'),kp=$('#kadr-play');if(kp){if(slot){slot.appendChild(kp);kp.hidden=false;}else{document.body.appendChild(kp);kp.hidden=true;}}
  m.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>copy(promptOf(D.find(d=>d.id===b.dataset.copy))));
  m.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>open(b.dataset.open));
  m.querySelectorAll('[data-still]').forEach(b=>b.onclick=()=>copy(STILL[b.dataset.still]||''));

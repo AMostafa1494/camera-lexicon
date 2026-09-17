@@ -76,6 +76,13 @@ fwf:'{S}, frame within a frame. Composition: the subject seen through a dark doo
 lines:'{S}, leading lines. Composition: strong lines from the foreground converging toward the subject, road and structural edges guiding the eye to a deep vanishing point, 24mm. Camera: static.',
 silhouette:'{S} in full silhouette. Composition: subject backlit against a blazing sky, no detail in the subject, only its shape, a rim of light on the edges. Camera: static. Mood: iconic, mysterious.',
 reflection:'{S} with a mirror reflection. Composition: subject and its perfect reflection in still water, mirrored symmetry, the reflection slightly darker with minimal ripples, blue hour. Camera: static.',
+gratio:"{S}, composed on the golden ratio grid. Composition: the subject just off centre on the 38 percent vertical, the horizon on the 62 percent line, calm natural balance, nothing dead centre. Camera: static.",
+gspiral:"{S}, composed on a golden spiral. Composition: a curving line in the scene (a road, a wall, a shadow edge) sweeps in toward the subject, who sits at the eye of the spiral in the lower right, the rest of the scene wrapping around. Camera: static.",
+gtriangle:"{S}, composed on the golden triangle. Composition: one strong diagonal from corner to corner (a road, a stair, a shadow edge) with the subject placed where the perpendicular from the opposite corner meets it, dynamic and tense. Camera: static.",
+horizon:"{S}, horizon placed off centre. Composition: the horizon on the lower third with the sky carrying the mood (or on the upper third when the ground is the story), never through the middle. Camera: static, level.",
+leadroom:"{S}, framed with lead room. Composition: the subject looks or moves toward the open side of the frame, with clearly more space in front of the gaze than behind the head. Camera: static or tracking.",
+headroom:"{S}, framed with correct headroom. Composition: a small gap above the hair in a medium shot, shrinking to a crop at the hairline in a close-up, eyes on the upper third line. Camera: static.",
+layers:"{S}, composed in three layers. Composition: a foreground element close to the lens, the subject in the midground, and the environment as the background, each on its own plane for depth. Camera: static or a slow lateral move.",
 golden:'{S} at golden hour. Light: low warm sun raking across from the side, long shadows revealing texture and depth, soft glowing haze, magic hour. Camera: slow push-in.'
 };
 const G={
@@ -154,5 +161,12 @@ fwf:'the man seen through a dark arched doorway in the foreground, the bright pl
 lines:'strong leading lines of the paving joints and pool edge converging toward the man at the vanishing point',
 silhouette:'the man in full black silhouette against a blazing orange sunset sky, rim light on his edges, no detail in the figure',
 reflection:'the man and the building reflected perfectly in the still reflecting pool, mirrored composition, blue hour',
+gratio:"Kadr desert series still",
+gspiral:"Kadr desert series still",
+gtriangle:"Kadr desert series still",
+horizon:"Kadr desert series still",
+leadroom:"Kadr desert series still",
+headroom:"Kadr desert series still",
+layers:"Kadr desert series still",
 golden:'golden hour, low warm sun raking across the facade and the man from the side, very long shadows, glowing haze'
 };
